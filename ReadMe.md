@@ -4,6 +4,10 @@ Description
 
 The goal of this app is to monitor changes and issue MTA status updates, while providing an api to request uptimes and delays.
 
+Possible improvements:
+- Set up proper multiprocessed system for requesting data with gunicorn, so that the app works at scale
+- Improve testing, use a well formatted protobuf sample instead of sample_gtfs.py
+
 --------------------
 Requirements/ Startup
 --------------------
