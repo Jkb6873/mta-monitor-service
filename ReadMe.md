@@ -12,6 +12,10 @@ Possible improvements:
 Requirements/ Startup
 --------------------
 - Requires Python 3.7.2, tested on macOS Mojave
+- Requires an .env file at the project level directory of the format
+```
+export MTA_API_KEY={valid mta api key}
+```
 - run with
 ```
 sh startup.sh
